@@ -1,6 +1,3 @@
-## Luuk.it
-This is the source of my homepage Luuk.it
-It uses a custom build of Nancy so it can be hosted using [Oswos] [oswos]
-
-[oswos]: https://github.com/luuksommers/oswos "Oswos"
-
+## SugarGlider
+SugarGlider is the codename of an online survey tool I've build in 2008. 
+No warranty whatsoever, it may even kill your computer or some cute little bunnies.
