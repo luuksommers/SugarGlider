@@ -1,0 +1,145 @@
+body {
+	font: 12px Verdana;
+	text-align: center;	
+	background: #000000 url(img/nf_header-bg.jpg) repeat-x;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+p {
+	margin-top: 16px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration:none;
+	outline: none;
+}
+
+a:hover {
+        color: #000000;
+}
+
+#center {
+	margin: 0 auto;
+	width: 800px;
+	height: auto;
+	text-align: left;
+}
+
+#container {
+	position:relative;
+	width: 800px;
+	height: 600px;
+	float: left;
+}
+
+#header {
+	position:absolute;
+	top: 0px;
+	z-index:2;
+	width: 800px;
+	height: 80px;
+	float: left;
+	background: #555555;
+}
+
+#header_inner {
+	width: 800px;
+	height: 170px;
+	float: left;
+	background-image: url(img/nf_header.png);
+}
+
+#menu {
+	position:absolute;
+	top: 82px;
+	z-index:2;
+	width: 800px;
+	height: 20px;
+	float: left;
+}
+
+#menu_inner {
+	width: 780px;
+	line-height: 16px;
+	color: #ffffff;
+	text-padding-bottom: 2px;
+	text-align: right;
+}
+
+#content {
+	position:absolute;
+	top: 100px;
+	z-index:1;
+	width: 800px;
+	min-height: 500px;
+	float: left;	
+	background-color: #dddddd;
+}
+
+#content_inner {
+	padding: 20px 20px 20px 20px;	
+}
+
+#content_inner a {
+	color: #76123f;	
+}
+
+#content_inner a:hover {
+	text-decoration:underline;
+}
+
+
+div.error 
+{
+	font:x-small;
+	color:#FF0000;
+}
+
+div.errorbig 
+{
+	font:small;
+	color:#FF0000;
+}
+
+#loading 
+{
+    background: white;
+    padding: 20px;
+    border: 2px solid black;
+    display: none; /* hidden */
+    position: absolute;    
+    left: 50%;
+    margin-left: -100px;
+    top: 25%;
+    width: 200px;
+    /*height: 100px;*/
+        /*margin-top: -50;*/
+    font-weight: bold;
+    font-size: large;
+}
+
+
+#pageNumber
+{
+	font:x-small;
+	color:#CCCCCC;
+}
